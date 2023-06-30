@@ -29,7 +29,7 @@ const Jumbtron = () => {
           <a className='link' onClick={handleLearnMore}>Learn more</a>
         </li>
       </ul>
-      <img src={HoldingIphone} alt='iPhone' />
+      <img src={HoldingIphone} className='iphone-img' alt='iPhone' />
     </div>
   )
 }
