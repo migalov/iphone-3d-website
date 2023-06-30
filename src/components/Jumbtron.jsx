@@ -2,7 +2,7 @@ import React from 'react'
 import Iphone from "../assets/images/iphone-14.jpg";
 import HoldingIphone from '../assets/images/iphone-hand.png';
 
-const Jumbotron = () => {
+const Jumbtron = () => {
 
   const handleLearnMore = () => {
     const element = document.querySelector(".sound-section");
@@ -14,7 +14,7 @@ const Jumbotron = () => {
   }
 
   return (
-    <div className='jumbotron-section wrapper'>
+    <div className='jumbtron-section wrapper'>
       <h2 className='title'>New</h2>
       <img className='logo' src={Iphone} alt="iPhone 14 Pro" />
       <p className='text'>Big and bigger</p>
@@ -26,7 +26,7 @@ const Jumbotron = () => {
           <button className='button'>Buy</button>
         </li>
         <li>
-          <a className='link' href="#" onClick={handleLearnMore}>Learn more</a>
+          <a className='link' onClick={handleLearnMore}>Learn more</a>
         </li>
       </ul>
       <img src={HoldingIphone} alt='iPhone' />
@@ -34,4 +34,4 @@ const Jumbotron = () => {
   )
 }
 
-export default Jumbotron
+export default Jumbtron

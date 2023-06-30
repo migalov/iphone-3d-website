@@ -1,16 +1,18 @@
-import DIsplaySection from "./components/DisplaySection";
-import Jumbotron from "./components/Jumbotron";
+import DisplaySection from "./components/DisplaySection";
+import Jumbtron from "./components/Jumbtron";
 import Nav from "./components/Nav";
 import SoundSystem from "./components/SoundSystem";
+import WebgiViewer from "./components/WebgiViewer";
 
 const App = () => {
 
   return (
     <div className="App">
       <Nav />
-      <Jumbotron />
+      <Jumbtron />
       <SoundSystem />
-      <DIsplaySection />
+      <DisplaySection />
+      <WebgiViewer />
     </div>
   );
 }
