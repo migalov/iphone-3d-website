@@ -1,9 +1,11 @@
 import { useRef } from "react";
+import Preloader from "./components/Loader";
 import DisplaySection from "./components/DisplaySection";
 import Jumbtron from "./components/Jumbtron";
 import Nav from "./components/Nav";
 import SoundSystem from "./components/SoundSystem";
 import WebgiViewer from "./components/WebgiViewer";
+
 
 const App = () => {
 
@@ -15,6 +17,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Preloader />
       <div id="content" ref={contentRef}>
         <Nav />
         <Jumbtron />
