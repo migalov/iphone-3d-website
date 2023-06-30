@@ -1,5 +1,6 @@
 import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
+import SoundSystem from "./components/SoundSystem";
 
 const App = () => {
 
@@ -7,6 +8,7 @@ const App = () => {
     <div className="App">
       <Nav />
       <Jumbotron />
+      <SoundSystem />
     </div>
   );
 }
